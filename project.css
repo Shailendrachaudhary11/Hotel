@@ -1,0 +1,271 @@
+html {  
+  scroll-behavior:smooth;  
+}
+
+element.style {
+  display: block;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ffb606;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+/*---nav-bar--*/
+.nav-bar ul li a:hover{
+  color: #f0813a !important;
+  text-decoration: underline;
+}
+.nav-bar ul li a{
+  color: white;
+}
+
+#popular-dish:hover{
+  color: #f0813a !important;
+
+}
+
+.border2{
+  height: 288px;
+  width: 220px;
+  border: 0.5px solid #E9ECF2;
+  border-radius: 99px 99px 10px 10px;
+}
+.btn{
+  border: 1px solid black ;
+  box-shadow: 5px 5px #ff8000;
+}
+
+.butto{
+  border: 1px solid black ;
+  box-shadow: 5px 5px #ff8000;
+  margin-top: 7px;
+}
+/*--load-more--*/
+.load-more button{
+  
+ box-shadow: 5px 5px #ff8000;
+ color: white;
+ border: none;
+}
+/*--nav-tab--*/
+.load-more a{
+  border: 1ps solid white;
+  
+}
+ .card:hover{
+  border: 2px solid white;
+  
+}
+
+#v-pills-tab button:hover{
+  color: #ff8000 !important;
+  background-color: white !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #fe0000;
+}
+.nav-link{
+color:#fff;
+}
+/*---why-you-royal ---*/
+
+.why-you-royal h1{
+  color: white;
+  text-align: center;
+  font-family: Audiowide ;
+  font-size: xx-large;
+
+}
+.why-you-royal h1:hover{
+  text-decoration: underline;
+}
+.why-you-royal ul li{
+  
+  color: white;
+  list-style:square ;
+  
+  font-weight: bold;
+  padding: 5px;
+}
+.why-you-royal ul li:hover{
+  color: #f0813a;
+  padding: 0px;
+}
+
+
+/*   about-my-collage  */
+.about-my-collage{
+  background-image: url(royal-king.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  font-size: x-large;
+  
+}
+.about-my-collage h2 {
+  color: #f0813a;
+  text-align: center;
+  font-weight: bold;
+  font-family: Audiowide 
+}
+.about-my-collage h5{
+  color: #f0813a;
+}
+
+.about-my-collage p{
+  color: white;
+}
+/*--image -text--*/
+
+
+.image-text{
+  background-image: url(pexels-lukas-616401.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 100px 0px 200px;
+ 
+  height: 600px;
+  width: 100%;
+  
+}
+.Subscibe button:hover{
+  box-shadow: 5px 5px #ff8000;
+  
+}
+.back-image{
+  background-color: black;
+}
+.image-text:hover{
+  box-shadow: 10px 10px rgb(41, 41, 41);
+  border: 1px solid rgb(65, 62, 62);
+}
+.text-text{
+  text-align: center;
+  padding-top: 150px;
+}
+
+/*---footer--*/
+.back-color-footer{
+  background-color: rgb(15, 14, 14);
+  border-top:  2px solid white;
+  
+}
+
+/*--anuj sir--*/
+@media(max-width:900px){
+  .card2{
+    padding: 10px !important;
+  }
+}
+.card2 img{
+  margin-top: 40px; 
+}
+.card2 .content{
+  font-weight:700
+}
+.main {
+  background-color: #f0813a;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 0 0 3rem 0;
+ 
+}
+
+.main h1 {
+  font-family: 'bootstrap-icons';
+  font-weight: 700;
+}
+
+.main .card2 {
+  padding: 5rem 3rem;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-radius: 0 0px 200px 200px;
+  position: relative;
+  color: #fff;
+  transition: all 2s;
+  
+}
+
+.main .card2:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.5s;
+  box-shadow: 10px 4px 0 2px;
+}
+
+
+
+.bi-arrow-down-circle::before {
+  content: "\f119";
+  background-color: #f0813a;
+  border-radius: 50px;  
+  transition: all 0.3s;
+}
+
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.main .img {
+  position: absolute;
+  top: -110px;
+  left: 0;
+  right: 0;
+}
+
+
+
+/*--bread-image --*/
+.bread-image {
+  background-image: url(bread-iamge-removebg-preview.png);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-bread button{
+  border-radius: 20px;
+  background-color: #f0813a;
+  border: 2px solid white;
+
+  color: white;
+}
+.text-bread button:hover{
+  box-shadow: 3px 3px black;
+  transition:0.5s;
+}
+.text-bread
+{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 172px;
+font-weight: bold;
+  padding-left: 475px;
+  font-size: large;
+}
+.text-bread p{
+  text-decoration: underline;
+}
+@media(min-width:1024px){
+  .text-bread{
+    position: relative;
+    top: 246px;
+    padding-left: 637px;
+  }
+}
